@@ -28,6 +28,21 @@
 	\tableofcontents
 	\newpage
 	\section{Improving On The Existing Test Output}
+	\subsection{Coverage And Efficiency}
+	\subsubsection{Verification}
+	We asked the question whether or not the behaviour of their code/component is what we expected. Add multi-threading capability.
+	\subsubsection{Validation}  
+	We also asked if the right "thing" is being built. Yes, they have implemented according to the specifications given.
+	\subsection{Service Contract Of Each Of The Use Case Tested}
+	
+	getRoutes():
+	The function works but not 100 percent of the time. A separate API could be used in conjunction with their code to provide a more "accurate" route.
+		
+	\section{Coverage And Efficiency}
+	
+	Mark: 3
+	They has very little coverage of test cases overall. Not all functions were tested in the given Apptest.java file. There was 		no testing of multi-threaded cases and would cause code to break under these circumstances. This would happen under real 			world circumstances where multiple users would request data simultaneously. Their test cases are inefficient as most 				functions were not tested at all. Their only test case in their test file was if the class compiled correctly.
+	
 	\section{Service Contract Of Each Of The Use Case Tested}
 	\begin{enumerate}
     \item Get building by coordinates:\\
