@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{testingphase}
+\author{peter.rayner3 }
+\date{May 2017}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\subsection{Coverage And Efficiency}
+Mark: 3
+They has very little coverage of test cases overall. Not all functions were tested in the give Apptest.java file. There was no testing of multi-threaded cases and would cause code to break under these circumstances.This would happen under real world circumstances where multiple users would request data simultaneously. Their test cases are inefficient as most functions were not tested at all. Their only test case in their test file was if the class compiled correctly.
+
+\end{document}
